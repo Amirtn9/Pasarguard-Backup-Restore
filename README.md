@@ -46,9 +46,9 @@
 <pre><code>docker exec -i pasarguard-mysql-1 mysql -u root -p"رمز_دیتابیس" pasarguard &lt; /root/restore/db_backup.sql</code></pre>
 
 <p>مثال‌ها:</p>
-<pre><code>docker exec -i pasarguard-mysql-1 mysql -u pasarguard -p"amirpardakhteh39596989" pasarguard &lt; /root/restore/db_backup.sql
-docker exec -i pasarguard-mysql-1 mysql -u pasarguard -p"vjHC02lJKDC59zErldtJ" pasarguard &lt; /root/restore/db_backup.sql
-docker compose exec -T mysql mysql -u root -p"vjHC02lJKDC59zErldtJ" -h 127.0.0.1 &lt; "/opt/pasarguard/pasarguard.sql"</code></pre>
+<pre><code>docker exec -i pasarguard-mysql-1 mysql -u pasarguard -p"passwoarddatabase2159" pasarguard &lt; /root/restore/db_backup.sql
+docker exec -i pasarguard-mysql-1 mysql -u pasarguard -p"vjHC02lJgdfC59zErldtJ" pasarguard &lt; /root/restore/db_backup.sql
+docker compose exec -T mysql mysql -u root -p"vjHC02lJgdfC59zErldtJ" -h 127.0.0.1 &lt; "/opt/pasarguard/pasarguard.sql"</code></pre>
 
 <h2>مرحله ۶: ریستارت نهایی Pasarguard</h2>
 <pre><code>pasarguard restart</code></pre>
